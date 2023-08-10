@@ -349,7 +349,7 @@ button {
 .text_box_color {
      background: #210070;
      width: 100%;
-     height: 600px;
+     height: auto;
 }
 @media screen and (max-width :650px) {
      .text_box_color {
@@ -362,9 +362,6 @@ button {
 .text-bg h1 {
      color: #fff;
      font-size:44px;
-     line-height: 90px;
-     padding-bottom: 30px;
-     padding-top: 30px;
      font-weight: bold;
      text-align: center;
 }
@@ -375,7 +372,6 @@ button {
      font-family: 'Baloo Chettan', cursive;
      color: #70c0ba;
      font-size: 60px;
-     line-height: 85px;
      font-weight: bold;
 }
 
