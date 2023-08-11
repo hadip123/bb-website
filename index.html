@@ -58,7 +58,6 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                            data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
                            aria-label="Toggle navigation">
-                           <!-- <span class="navbar-toggler-icon"></span> -->
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarsExample04">
@@ -87,10 +86,12 @@
                            <div style="text-align: center;" class="text-bg ">
                               <h1 >BodyBuilderAplication </h1>
 
-                         <div">
-   <img style="  width: 550px; padding: 25px;"  src="images/Untitld.png" alt="#" />
+                         <div>
+   <img style="  width: 550px; padding: 25px;" src="images/Untitld.png" alt="#" />
 
-  <img src="./images/myket.png" style="width: 280px;margin-top: -100px; margin: 50px;" alt="">
+      <img onclick="link()"  src="./images/myket.png"  style="width: 280px;cursor: pointer;;margin-top: -100px; margin: 50px;"  alt="دریافت از مایکت">
+
+   
 
 
 </div>
@@ -167,7 +168,6 @@
             </div>
             <div class="col-md-4">
                <div class="amezing_box">
-                  <figure><img src="images/can.png"></figure>
                </div>
             </div>
          </div>
@@ -194,9 +194,9 @@
             <br>
             <div style="align-items: center;;">
                <ul class="social_infomision" style="display: inline-flex; ">
-                  <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li onclick="link_1()"> <a href="#"><i class="fa fa-telegram"></i></a></li>
                   <div style="width: 35px;"></div>
-                  <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li onclick="link_2()"> <a href="#"><i class="fa fa-instagram"></i></a></li>
                </ul>
             </div>
          </div>
@@ -287,5 +287,14 @@
       const content = document.getElementById('content');
       const teleportTarget = document.getElementById('teleport-target');
       teleportTarget.appendChild(content);
+   }
+   function link (){
+window.location.href ="https://myket.ir/app/com.bodybuilder.app"
+   }
+   function link_1(){
+      window.location.href="https://t.me/BodyBuilder_App"
+   }
+   function link_2(){
+      window.location.href="https://www.instagram.com/BodyBuilder.Team/"
    }
 </script>
