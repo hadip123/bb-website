@@ -841,12 +841,13 @@ ul.social_icon li a:hover {
 
 @media screen and (max-width:785px) {
      #loogoos {
-          width: 14%;
+          width: 15%;
      }
 }
 
 @media screen and (max-width:500px) {
      #loogoos {
-          display: none;
+        position: fixed;
+
      }
 }
