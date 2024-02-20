@@ -349,7 +349,7 @@ button {
 .text_box_color {
      background: #210070;
      width: 100%;
-     height: auto;
+     height: 100svh;
 }
 @media screen and (max-width :650px) {
      .text_box_color {
@@ -850,4 +850,28 @@ ul.social_icon li a:hover {
         position: fixed;
 
      }
+}
+
+@media (max-width: 767.98px) {
+  .topbar-container { flex-direction: column; }
+}
+@media (min-width: 768px) {
+  .topbar-container { flex-direction: row; }
+}
+
+@media (max-width: 767.98px) {
+  .topbar-image { height: 50svh; }
+}
+@media (min-width: 768px) {
+  .topbar-image { height: 20svh; }
+}
+
+@media (max-width: 768px) {
+  .topbar-image { height: 60svh; }
+}
+@media (min-width: 400px) {
+  .topbar-image { height: 50svh; }
+}
+@media (min-width: 768px) {
+  .topbar-image { height: 80svh; }
 }
